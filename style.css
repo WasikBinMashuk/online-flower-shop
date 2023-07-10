@@ -178,7 +178,8 @@
     border-radius: 8px;
     background: rgba(229, 84, 115, 0.05);
     margin-top: 128px;
-    padding: 0px 250px;
+    margin-bottom: 128px;
+    /* padding: 0px 250px; */
 }
 
 .third-section-container-left {
@@ -200,3 +201,18 @@
     font-weight: 400;
     padding: 24px 0px 32px 0px;
 }
+
+/* MAIN SECTIONS NO. 4 */
+.forth-section-container{
+    margin-bottom: 128px;
+}
+.forth-section-images{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    width: 80%;
+    margin: auto;
+    margin-top: 48px;
+}
+
+/* MAIN SECTIONS NO. 5 */
