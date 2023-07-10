@@ -16,6 +16,8 @@
     margin-left: 5px;
 }
 
+/* HEAD BANNER */
+
 .head-banner {
     display: flex;
     height: 100vh;
@@ -26,9 +28,8 @@
     gap: 50px;
     /* border: 2px solid red; */
 }
-.head-banner-info{
-    
-}
+
+.head-banner-info {}
 
 .head-banner-heading {
     color: #272727;
@@ -44,6 +45,124 @@
     margin-bottom: 32px;
     padding-left: 5px;
 }
-.head-banner-img{
+
+.head-banner-img {
     padding-top: 170px;
+}
+
+/* MAIN SECTIONS NO. 1 */
+
+.first-section-container {
+    /* margin-top: 178px; */
+    width: 80%;
+    margin: auto;
+    padding-top: 178px;
+    padding-bottom: 178px;
+}
+
+.first-section-heading {
+    text-align: center;
+}
+
+.first-section-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.first-section-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 20px;
+}
+
+.first-section-images {
+    margin-top: 48px;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.first-section-imgages-card1 {
+    width: 400px;
+    height: 530px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    text-align: center;
+}
+
+.first-section-img1 {
+    width: 270px;
+    height: 400px;
+    padding-top: 130px;
+
+}
+
+.first-section-imgages-card2 {
+    width: 400px;
+    height: 530px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    text-align: center;
+}
+
+.first-section-img2 {
+    width: 370px;
+    height: 360px;
+    /* padding-top: 130px; */
+    padding: 117px 20px 52px 20px;
+
+}
+
+.first-section-imgages-card3 {
+    width: 400px;
+    height: 530px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    text-align: center;
+}
+
+.first-section-img3 {
+    width: 320px;
+    height: 400px;
+    padding-top: 130px;
+
+}
+
+.first-section-imgages-card-caption {
+    color: #272727;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
+    padding-top: 20px;
+}
+
+/* MAIN SECTIONS NO. 2 */
+
+.second-section-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    height: 220px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+}
+
+.second-section-icon {
+    text-align: center;
+}
+
+.icon {
+    padding-bottom: 15px;
+}
+
+.icon-caption {
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 18px;
+    font-weight: 600;
 }
