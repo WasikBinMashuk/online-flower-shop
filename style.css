@@ -46,9 +46,12 @@
     padding-left: 5px;
 }
 
-.head-banner-img {
+.head-banner-img-container {
     /* height: 800px; */
     padding-top: 180px;
+}
+.head-banner-img{
+    height: 800px;
 }
 
 /* MAIN SECTIONS NO. 1 */
