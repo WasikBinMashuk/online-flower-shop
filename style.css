@@ -203,10 +203,11 @@
 }
 
 /* MAIN SECTIONS NO. 4 */
-.forth-section-container{
+.forth-section-container {
     margin-bottom: 128px;
 }
-.forth-section-images{
+
+.forth-section-images {
     display: flex;
     justify-content: center;
     gap: 24px;
@@ -214,5 +215,77 @@
     margin: auto;
     margin-top: 48px;
 }
+.forth-container-img{
+    width: 342px;
+height: 396px;
+}
 
 /* MAIN SECTIONS NO. 5 */
+.fifth-section-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    background-image: url('./images/Rectangle\ 9.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    margin-bottom: 128px;
+}
+
+.fifth-section-email-box {
+    margin-top: 48px;
+    display: flex;
+    gap: 10px;
+}
+
+.fifth-section-email-box input::placeholder {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    padding: 22px;
+}
+
+.email-input {
+    width: 700px;
+    height: 64px;
+    border-radius: 8px;
+    background: #FFF;
+}
+
+/* FOOTER */
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: #111010;
+    color: white;
+    height: 450px;
+}
+
+.footer-title {
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.footer-description {
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.footer-copyright {
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 32px;
+}
