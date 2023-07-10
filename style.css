@@ -166,3 +166,37 @@
     font-size: 18px;
     font-weight: 600;
 }
+
+
+/* MAIN SECTIONS NO. 3 */
+
+.third-section-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 620px;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    margin-top: 128px;
+    padding: 0px 250px;
+}
+
+.third-section-container-left {
+    text-align: center;
+}
+
+.third-section-container-title {
+    color: #272727;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+}
+
+.third-section-container-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    padding: 24px 0px 32px 0px;
+}
